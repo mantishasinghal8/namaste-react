@@ -1,3 +1,7 @@
+import React from "react";
+import ReactDOM from "react-dom/client";
+
+
 //~ Single Structure
 const heading = React.createElement(
     "h1",//^ tag name
@@ -60,7 +64,7 @@ const parent1 = React.createElement(
         "div",
         { id: "child1" },
         [
-            React.createElement("h1", {}, "I'm an h1 Tag"),
+            React.createElement("h1", {}, "This is Namaste React🚀"),
             React.createElement("h2", {}, "I'm an h2 Tag"),
         ]
     ),

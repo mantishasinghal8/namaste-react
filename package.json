@@ -1,0 +1,32 @@
+{
+  "name": "react-by-namaste-react",
+  "version": "1.0.0",
+  "description": "This is Namaste React by Mantisha Singhal",
+  "keywords": [],
+  "homepage": "https://github.com/mantishasinghal8/namaste-react#readme",
+  "bugs": {
+    "url": "https://github.com/mantishasinghal8/namaste-react/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mantishasinghal8/namaste-react.git"
+  },
+  "license": "ISC",
+  "author": "Mantisha Singhal",
+  "type": "commonjs",
+  "scripts": {
+    "serve": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "jest"
+  },
+  "devDependencies": {
+    "parcel": "^2.16.4"
+  },
+  "dependencies": {
+    "react": "^19.2.5",
+    "react-dom": "^19.2.5"
+  },
+  "browserslist": [
+    "Last 2 versions"
+  ]
+}
