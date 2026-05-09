@@ -15,6 +15,21 @@ body {
   color: red;
 }
 
+button {
+  padding: 10px 20px;
+  background: #744577;
+  border: none;
+  border-radius: 5px;
+  color: #fff;
+  font-weight: 700;
+  cursor: pointer;
+  transition: 0.3s all ease-in-out;
+
+  &:hover {
+    background-color: rgb(92, 118, 109);
+  }
+}
+
 .header {
   background-color: #f0e9b6;
   display: flex;
@@ -64,6 +79,12 @@ body {
       display: flex;
     }
   }
+
+  .filter {
+    margin: 0 0 15px;
+  }
+
+
 
   .res-container {
     display: flex;
