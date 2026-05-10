@@ -14,7 +14,7 @@ const styleCard = {
 //# Restaurant Cards 
 // const RestaurantCard = ({resName, cuisine}) => {  (Destructuring)
 const RestaurantCard = ({ resData }) => { //Direct via prop 
-    const { cloudinaryImageId, name, cuisines, avgRating, costForTwo } = resData?.card?.card?.info;
+    const { cloudinaryImageId, name, cuisines, avgRating, costForTwo } = resData;
 
 
     return (
